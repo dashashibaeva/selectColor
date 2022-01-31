@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0; }
+
+body {
+  width: auto;
+  height: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: white;
+  color: black; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+hr {
+  margin: 12px 6px;
+  border: none;
+  background-color: #EAEAEA;
+  color: #EAEAEA;
+  height: 1px; }
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.flex {
+  display: flex; }
+
+.flex_space-between {
+  justify-content: space-between; }
+
+.grid {
+  display: grid; }
+
+.screenCenter {
+  min-height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.settingButton {
+  height: 24px;
+  width: 24px;
+  mask: url(./assets/images/settingButton__Image.svg) no-repeat center;
+  background-color: #587AB0; }
+  .settingButton:hover {
+    background-color: #313E78; }
+
+.popupSettings {
+  width: 300px;
+  height: 311px;
+  padding: 12px 0 6px;
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(15, 15, 15, 0.05), 0 2px 8px rgba(15, 15, 15, 0.15);
+  border-radius: 6px;
+  text-align: left; }
+
+.popupSettings__block {
+  margin: 0 6px;
+  width: auto; }
+
+.popupSettings__row {
+  padding: 0 6px;
+  width: auto; }
+
+.popupSettings__row-setting {
+  padding: 6px;
+  cursor: pointer;
+  align-items: center;
+  border: 1px solid transparent;
+  grid-template-columns: 36px auto 24px; }
+  .popupSettings__row-setting:hover {
+    border: 1px solid #CCCCCC;
+    border-radius: 6px; }
+
+.popupSettings__title {
+  font-weight: 600;
+  color: #333333;
+  line-height: 15px; }
+
+.popupSettings__title-window {
+  margin-bottom: 9px;
+  font-size: 18px;
+  line-height: 23px; }
+
+.popupSettings__description {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 15px; }
+
+.popupSettings__buttons button {
+  height: 24px;
+  width: 20px;
+  margin-left: 8px; }
+  .popupSettings__buttons button .popupSettings__button-save {
+    height: 15px; }
+  .popupSettings__buttons button .popupSettings__button-close {
+    height: 13px; }
+
+.popupSettings__title-setting {
+  margin: 0 6px;
+  padding: 4px 0 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em; }
+
+.popupSettings__colorSquare {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 1px #CCCCCC;
+  border-radius: 6px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0; }
+
+.popupSettings__colorSquare-quarter:nth-child(1) {
+  border-radius: 6px 0 0 0; }
+.popupSettings__colorSquare-quarter:nth-child(2) {
+  border-radius: 0 6px 0 0; }
+.popupSettings__colorSquare-quarter:nth-child(3) {
+  border-radius: 0 0 0 6px; }
+.popupSettings__colorSquare-quarter:nth-child(4) {
+  border-radius: 0 0 6px 0; }
+
+.popupSettings__row-setting__tittle {
+  font-size: 14px;
+  color: #333333;
+  line-height: 18px; }
+
+.popupSettings__row-setting__description {
+  font-size: 12px;
+  color: #999999;
+  line-height: 15px; }
+
+.popupSettings__arrow {
+  height: 24px;
+  width: 24px;
+  mask: url(assets/images/arrow.svg) no-repeat center;
+  background-color: #333333; }
+
+/*# sourceMappingURL=App.css.map */
